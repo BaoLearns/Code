@@ -1,0 +1,46 @@
+#!/usr/bin/env python
+#_*_ coding:utf-8 _*_
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+import urllib, urllib2, re
+
+class BDTB(object):
+    def __init__(self, baseURL, seeLZ):
+        self.baseURL = baseURL
+        self.seeLZ = '?see_lz' + str(seeLZ)
+
+    def getPage(self, pageNum):
+        try:
+            url = self.baseURL + self.seeLZ + '&pn=' + str(pageNum)
+            request = urllib2.Request(url)
+            response = urllib2.urlopen(request)
+            #print response.read()
+            return response.read().encode('utf-8')
+        except urllib2.URLError, e:
+            if hasattr(e, 'code'):
+                print e.code
+            if hasattr(e, 'reason'):
+                print e.reason
+
+    def getTitle(self):
+        page = self.getPage(1)
+        pattern = re.compile('<h3 class="core_title_txt.*?>(.*?)</h3>', re.S)
+        title = re.findall(pattern, page)
+        for i in title:
+            print i
+        print 'DONE'
+        '''if title:
+            print "Title:", title.group()
+        else:
+            print "No Title, check the re."
+        '''
+        getNumber(self):
+            page = self.getPage(1)
+            pattern = re.compile('<li class="l">')
+baseURL = 'http://tieba.baidu.com/p/3138733512'
+bdtb = BDTB(baseURL, 1)
+bdtb.getTitle()
+
+

@@ -1,0 +1,32 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#define pb push_back
+
+using namespace std;
+
+int main()
+{
+    int n, k;
+    cin >> n >> k;
+    vector <int> vec;
+    int ans = 0, MAX = 0;
+    for(int i = 0; i < n; ++i)
+    {
+        int e;
+        cin >> e;
+        ans += e / 10;
+        for(int j = 0; j * 10 + e <= 100; ++j)
+            vec.pb((j + 1) * 10 - (j * 10 +  e) % 10);
+        if(e < 100) MAX += (100 - e) / 10 + 1;
+    }
+    sort(vec.begin(), vec.end());
+    int cnt = 0;
+    for(int i = 0; i < vec.size() && vec[i] <= k; ++i)
+    {
+        cnt++;
+        k -= vec[i];
+    }
+    cout << ans + min(cnt, MAX) << endl;
+    return 0;
+}

@@ -1,0 +1,15 @@
+/*************************************************************************
+kjk    > File Name: F.cpp
+    > Author: Royecode
+    > Mail: Royecode@163.com 
+    > Created Time: 2015年10月11日 星期日 15时53分41秒
+ ************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char **argv)
+{
+    return 0;
+}

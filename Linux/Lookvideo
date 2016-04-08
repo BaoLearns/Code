@@ -1,0 +1,37 @@
+getopt()获取main传递的短参数
+getlongopt()获取main传递的长参数
+高级语言编译成2进制可执行代码的4个步骤（GCC）
+1、预处理：去掉注释，进行宏替换，头文件包含等工作
+gcc -E test.c -o test.i
+2、编译：将高级语言编译成汇编语言
+gcc -S test.c/test.i -o test.s
+3、汇编：将汇编语言翻译成二进制的目标代码
+gcc -c test.c/test.i/test.s -o test.o
+4、链接：包含各个函数的入口，得到可执行代码
+gcc -o test test.c/test.s/test.o
+优化选项：加入编译参数-O0/1/2/3
+警告选项：加上编译参数-Wall
+将警告当做错误：-Werror
+编译时加入宏：-D
+指定头文件：-I 头文件的完整路径
+编程时的限制：
+1、数据类型的限制：limit.h和folat.h
+2、系统的限制：ulimit来修改，编程是用getrlimit（）函数来获取，setrlimit函数设置限制（），查看显示：man getrlimit
+file 文件名，查看文件的信息
+size 可执行程序，查看大小信息
+
+内存中的可执行文件：
+	内存模型：
+	内核空间
+
+	栈
+
+	mmap
+
+	堆
+
+	BSS段
+	数据段
+	代码段
+
+starce ./a 

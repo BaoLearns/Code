@@ -1,0 +1,51 @@
+/*************************************************************************
+    > File Name: time.c
+    > Author: Royecode
+    > Mail: Royecode@163.com 
+    > Created Time: Sat Oct 31 21:50:54 2015
+ ************************************************************************/
+#include <stdio.h>
+#include <unistd.h>
+#include <signal.h>
+void sigroutine(int signo)
+{
+ static int count1=0,count2=0;
+ switch (signo)
+ {
+ case SIGALRM:
+  count1++;
+  printf("Catch a signal -- SIGALRM \n");
+  printf("count1 = %d\n\n", count1);
+  signal(SIGALRM, sigroutine);
+  break;
+ case SIGVTALRM:
+  count2++;
+  printf("Catch a signal -- SIGVTALRM \n");
+  printf("count2 = %d\n\n", count2);
+  signal(SIGVTALRM, sigroutine);
+  break;
+ }
+ return;
+}
+ 
+int main()
+{
+ struct itimerval value, ovalue, value2;
+ printf("process id is %d\n", getpid());
+ signal(SIGALRM, sigroutine);
+ signal(SIGVTALRM, sigroutine);
+ 
+ value.it_value.tv_sec = 2;
+ value.it_value.tv_usec = 0;
+ value.it_interval.tv_sec = 3;
+ value.it_interval.tv_usec = 0;
+ setitimer(ITIMER_REAL, &value, &ovalue);
+ 
+ value2.it_value.tv_sec = 1;
+ value2.it_value.tv_usec = 0;
+ value2.it_interval.tv_sec = 3;
+ value2.it_interval.tv_usec = 0;
+ setitimer(ITIMER_VIRTUAL, &value2, &ovalue);
+ 
+ while(1);
+}
