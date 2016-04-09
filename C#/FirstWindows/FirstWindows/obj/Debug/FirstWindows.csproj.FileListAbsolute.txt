@@ -1,0 +1,10 @@
+E:\Programming\C#\FirstWindows\FirstWindows\bin\Debug\FirstWindows.exe.config
+E:\Programming\C#\FirstWindows\FirstWindows\bin\Debug\FirstWindows.exe
+E:\Programming\C#\FirstWindows\FirstWindows\bin\Debug\FirstWindows.pdb
+E:\Programming\C#\FirstWindows\FirstWindows\obj\Debug\FirstWindows.csprojResolveAssemblyReference.cache
+E:\Programming\C#\FirstWindows\FirstWindows\obj\Debug\FirstWindows.Form1.resources
+E:\Programming\C#\FirstWindows\FirstWindows\obj\Debug\FirstWindows.Properties.Resources.resources
+E:\Programming\C#\FirstWindows\FirstWindows\obj\Debug\FirstWindows.csproj.GenerateResource.Cache
+E:\Programming\C#\FirstWindows\FirstWindows\obj\Debug\FirstWindows.exe
+E:\Programming\C#\FirstWindows\FirstWindows\obj\Debug\FirstWindows.pdb
+E:\Programming\C#\FirstWindows\FirstWindows\obj\Debug\FirstWindows.Form2.resources

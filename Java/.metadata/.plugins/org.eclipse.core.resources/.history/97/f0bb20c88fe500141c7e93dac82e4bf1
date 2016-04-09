@@ -1,0 +1,20 @@
+//package hello1;	
+import java.util.*;
+public class Main {
+	public static void main(String[] args){
+		//System.out.println("a");
+		Scanner in = new Scanner(System.in);
+		String st = in.nextLine();
+		System.out.println(st);
+		//int x = in.nextInt(5);
+		//System.out.println(x);
+		System.out.println(st + 0x12);
+		st = in.nextLine();
+		System.out.println(st.equals("bye"));
+		String s1 = "abcd";
+		String s2 = "abcd";
+		System.out.println("abc".compareTo(s2));
+		System.out.println("abc".charAt(3));
+		System.out.println("012345".substring(2));
+	}
+}

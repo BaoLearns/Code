@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1403414479 source:e:\c\the new list\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+

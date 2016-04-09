@@ -1,0 +1,6 @@
+E:\Programming\C#\2.3\2.3\bin\Debug\2.3.exe.config
+E:\Programming\C#\2.3\2.3\bin\Debug\2.3.exe
+E:\Programming\C#\2.3\2.3\bin\Debug\2.3.pdb
+E:\Programming\C#\2.3\2.3\obj\Debug\2.3.exe
+E:\Programming\C#\2.3\2.3\obj\Debug\2.3.pdb
+E:\Programming\C#\2.3\2.3\obj\Debug\2.3.csprojResolveAssemblyReference.cache

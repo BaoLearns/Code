@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1403097827 source:e:\c\数组的合并\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

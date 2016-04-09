@@ -1,0 +1,5 @@
+E:\Programming\C#\2.1\2.1\bin\Debug\2.1.exe.config
+E:\Programming\C#\2.1\2.1\bin\Debug\2.1.exe
+E:\Programming\C#\2.1\2.1\bin\Debug\2.1.pdb
+E:\Programming\C#\2.1\2.1\obj\Debug\2.1.exe
+E:\Programming\C#\2.1\2.1\obj\Debug\2.1.pdb

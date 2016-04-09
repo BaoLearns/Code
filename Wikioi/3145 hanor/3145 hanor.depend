@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1403275922 source:e:\c\3145 hanor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

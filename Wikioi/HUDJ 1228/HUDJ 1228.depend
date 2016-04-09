@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1406171687 source:e:\c\hudj 1228\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1409368157 source:e:\c\从main中输入10个数据，存入文件\main.cpp
+	<iostream>
+	<cstdio>
+	<stdlib.h>
+

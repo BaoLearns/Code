@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1408950702 source:e:\c\divide\main.cpp
+	<iostream>
+	<algorithm>
+	<cstdio>
+

@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ջ - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP4461.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/ջ.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\C\ջ.cpp"
+"D:\C\new stack.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP4461.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP44A0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ջ.pdb" /debug /machine:I386 /out:"Debug/ջ.exe" /pdbtype:sept 
+".\Debug\ջ.obj"
+".\Debug\new stack.obj"
+.\Debug\4.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP44A0.tmp"
+<h3>Output Window</h3>
+Compiling...
+ջ.cpp
+D:\C\ջ.cpp(31) : error C2065: 's' : undeclared identifier
+D:\C\ջ.cpp(31) : error C2100: illegal indirection
+D:\C\ջ.cpp(32) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+D:\C\ջ.cpp(38) : error C2100: illegal indirection
+D:\C\ջ.cpp(39) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+D:\C\ջ.cpp(43) : error C2100: illegal indirection
+D:\C\ջ.cpp(44) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+D:\C\ջ.cpp(69) : error C2100: illegal indirection
+D:\C\ջ.cpp(70) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+D:\C\ջ.cpp(76) : error C2100: illegal indirection
+D:\C\ջ.cpp(77) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+new stack.cpp
+D:\C\new stack.cpp(11) : error C2819: type 'sqStack' does not have an overloaded member 'operator ->'
+        D:\C\new stack.cpp(3) : see declaration of 'sqStack'
+D:\C\new stack.cpp(11) : error C2227: left of '->base' must point to class/struct/union
+D:\C\new stack.cpp(11) : error C2065: 'malloc' : undeclared identifier
+D:\C\new stack.cpp(12) : error C2065: 'top' : undeclared identifier
+D:\C\new stack.cpp(12) : error C2676: binary '-' : 'sqStack' does not define this operator or a conversion to a type acceptable to the predefined operator
+D:\C\new stack.cpp(12) : error C2819: type 'sqStack' does not have an overloaded member 'operator ->'
+        D:\C\new stack.cpp(3) : see declaration of 'sqStack'
+D:\C\new stack.cpp(12) : error C2227: left of '->base' must point to class/struct/union
+D:\C\new stack.cpp(13) : error C2065: 'Push' : undeclared identifier
+D:\C\new stack.cpp(14) : error C2065: 'StackIsEmpty' : undeclared identifier
+D:\C\new stack.cpp(16) : error C2065: 'pop' : undeclared identifier
+D:\C\new stack.cpp(16) : error C2065: 'e' : undeclared identifier
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+ջ.exe - 22 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

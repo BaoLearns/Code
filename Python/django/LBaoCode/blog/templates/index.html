@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Home Page</title>
+	<meta name="generator" content="LibreOffice 4.2.8.2 (Linux)">
+	<meta name="created" content="20160226;212920977350631">
+	<meta name="changed" content="0;0">
+	<style type="text/css">
+	<!--
+		@page { margin: 2cm }
+		p { margin-bottom: 0.25cm; line-height: 120% }
+	-->
+	</style>
+</head>
+<body lang="zh-CN" dir="ltr">
+<p style="margin-bottom: 0cm; line-height: 100%"><br>
+</p>
+<h1>Welcome to my site, {{name}}</h1>
+	<div>
+		<li>{{user.name}}</li>
+		<li>{{user.age}}</li>
+		<li>{{user.sex}}</li>
+		<li>{{user.say}}</li>
+	</div>
+	<div>
+	<p>
+Book list.
+</p>
+<p>
+{{bookList.0}},
+{{bookList.1}},
+{{bookList.2}}
+</p>
+</div>
+
+{% if user.name == 'Oliver' %}
+Your name is {{user.name}} Bao.
+{% else %}
+Your name is {{user.name}}.
+{% endif %}
+
+{% for book in bookList %}
+<li>{{forloop.counter}}.{{book}}</li>
+{% endfor %}
+<p>This guys:</p>
+{% for Name in userName %}
+<li>{{Name}}</li>
+{% endfor %}
+
+{% for bookName, author in book.items %}
+
+
+<h3>书名:{{bookName}}</h3>      <li> 作者:{{author}}
+</li>
+
+{% endfor %}
+{% if name %}
+<a href = "logout">logout</a>
+{% endif %}
+</body>
+</html>

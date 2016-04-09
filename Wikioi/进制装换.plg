@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 进制装换 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5E3A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/进制装换.pdb" /debug /machine:I386 /out:"Debug/进制装换.exe" /pdbtype:sept 
+".\Debug\进制装换.obj"
+".\Debug\取数.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5E3A.tmp"
+<h3>Output Window</h3>
+Linking...
+取数.obj : error LNK2005: _main already defined in 进制装换.obj
+取数.obj : error LNK2001: unresolved external symbol "void __cdecl printf1(char * const,int)" (?printf1@@YAXQADH@Z)
+Debug/进制装换.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+进制装换.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

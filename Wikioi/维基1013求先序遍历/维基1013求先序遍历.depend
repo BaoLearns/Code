@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1404281313 source:e:\c\维基1013求先序遍历\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

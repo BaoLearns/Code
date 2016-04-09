@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1410704791 source:e:\c\stack\main.cpp
+	<cstdio>
+	<malloc.h>
+

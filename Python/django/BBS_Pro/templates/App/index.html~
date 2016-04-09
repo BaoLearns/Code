@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+{% load staticfiles %}
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<title>猫fff猫</title>
+
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+<meta name="author" content="Erwin Aligam - styleshout.com" />
+<meta name="description" content="Site Description Here" />
+<meta name="keywords" content="keywords, here" />
+<meta name="robots" content="index, follow, noarchive" />
+<meta name="googlebot" content="noarchive" />
+<link rel="stylesheet" type="text/css" href="{% static '/static/css/screen.css' %}" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css" media="screen" /><![endif]-->
+
+</head>
+
+<body>
+
+<!-- wrap -->
+<div id="wrap">
+
+	<!-- header -->
+	<div id="header">
+
+		<a name="top"></a>
+
+		<h1 id="logo-text"><a href="index.html" title="">主页</a></h1>
+		<div  id="nav">
+			<ul>
+				<li id="current"><a href="index.html">主页</a></li>
+				<li><a href="blog.html">博客</a></li>
+				<li><a href="archives.html">存档</a></li>
+				<li><a href="#">关于</a></li>
+			</ul>
+		</div>
+
+		<p id="rss-feed"><a href="#" class="feed">登录</a></p>
+	<!-- /header -->
+	</div>
+<!content>
+    {% if posting %}
+        {% for pos in posting %}
+            <h1>{{pos.title}}</h1>
+            <ul>{{pos.summer}}</ul>
+        {% endfor %}
+    {% endif %}
+
+<!content>
+<!-- footer -->
+<div id="footer">
+<!-- footer-bottom -->
+	<div id="footer-bottom">
+
+		<div class="bottom-left">
+			<p>
+			&copy; 2016 <strong>Copyright LBao &nbsp; &nbsp; &nbsp;
+			Contact me LBaoCode@Gmail.com</strong>
+			</p>
+		</div>
+
+		<div class="bottom-right">
+			<p>
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> |
+			<a href="http://validator.w3.org/check/referer">XHTML</a>	|
+				<a href="index.html">Home</a> |
+				<strong><a href="#top" class="back-to-top">Back to Top</a></strong>
+			</p>
+		</div>
+	</div>
+<!-- /footer -->
+</div>
+
+</body>
+</html>

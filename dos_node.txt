@@ -1,0 +1,21 @@
+1、md A 建立A文件夹
+2、cd 切换路径
+3、copy con a.txt 建立a.txt 文本文件
+4、del 删除文件，rd删除文件夹
+5、type a.txt 展开文件a.txt
+6、g++ main.cpp -o a，编辑链接main.cpp文件，生成a.exe可执行文件
+7、xcooy a b 将a复制到b
+8、ren a b 将a重命名未b
+9、remove a b 将a移动到b
+10、findstr "a" b 在吧文件中查找a字符所在的行
+11、more a 将a文件按页的方式打开
+12、mmg a b 想a计算机发送b内容
+13、
+14、
+15、
+16、
+17、
+18、
+19、
+20、
+

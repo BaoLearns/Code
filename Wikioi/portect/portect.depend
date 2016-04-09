@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1408949483 source:e:\c\portect\main.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	<algorithm>
+

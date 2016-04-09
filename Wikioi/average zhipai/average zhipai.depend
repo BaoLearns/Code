@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1401725578 source:d:\c\average zhipai\main.c
+	<stdio.h>
+	<stdlib.h>
+

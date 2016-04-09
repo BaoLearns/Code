@@ -1,0 +1,13 @@
+//package hello1;
+import java.util.*;
+public class Main {
+	public static void main(String[] args){
+		System.out.println("a");
+		Scanner in = new Scanner(System.in);
+		String st = in.nextLine();
+		System.out.println(st);
+		int x = in.nextInt(5);
+		System.out.println(x);
+		System.out.println(st + 012);
+	}
+}

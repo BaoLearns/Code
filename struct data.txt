@@ -1,0 +1,897 @@
+1、单链队列
+#include <stdio.h>
+#include <malloc.h>
+#include <stdlib.h>
+typedef struct node//数据节点
+{
+	int date;
+	struct node *next;
+} node ,* pnode;//重命名为node,pnode   pnode等价于struct node *
+typedef struct queue//指针节点front,rear
+{
+	pnode front;
+	pnode rear;
+}queue,* pqueue;//重命名为queue,pqueue   pnode等价于struct queue *
+void Init_queue(pqueue Q)//构造一个空队列
+{
+	Q->front=Q->rear=(pnode)malloc(sizeof(node));
+	if(Q->front==NULL) //判断分配是否失败
+	{
+		printf("error\n");
+		exit(-1);//跳出程序
+	}
+	Q->rear->next=NULL;
+	return ;
+}
+bool IsEmpty_queue(pqueue Q)//判断是否是空队列
+{
+	if(Q->front==Q->rear)
+		return true;
+	return false;
+}
+void En_queue(pqueue Q,int val)// 入队，在队列的尾部
+{
+	pnode q=(pnode)malloc(sizeof(node));
+	if(q==NULL) 
+	{
+		printf("error\n");
+		exit(-1);
+	}
+	q->date=val;
+	q->next=NULL;
+	Q->rear->next=q;
+	Q->rear=q;
+	//printf("%d\n",p->rear->date);
+	//p->front->next=NULL;
+	return ;
+}
+void Traverse_queue(pqueue Q)//遍历整个队列
+{
+	pnode r=(pnode)malloc(sizeof(node));
+	r=Q->front->next;
+	printf("遍历的结果是：");
+	while(r!=NULL)//输出队列的元素
+	{
+		printf("%d ",r->date);
+		r=r->next;
+	}
+	putchar('\n');
+
+}
+void De_queue(pqueue Q)//出队，输出整个队列的第一个元素
+{
+	pnode q=(pnode)malloc(sizeof(node));
+	q=Q->front;
+	printf("出队的元素是：%d\n",Q->front->next->date);
+	Q->front=Q->front->next;
+	free(q);//释放出队的节点
+	return ;
+}
+void Destory_queue(pqueue Q)
+{
+	pqueue q=(pqueue)malloc(sizeof(queue));
+	q=Q;
+
+	while(q->front!=q->rear)
+	{
+		pnode p=(pnode)malloc(sizeof(node));
+		p=q->front;
+		q->front=q->front->next;
+		free(p);
+	}
+}
+void Length_queue(pqueue Q)//判断多少个元素
+{
+	pnode p=Q->front;
+	int len=0;
+	while(p->next!=NULL)
+	{
+		++len;
+		p=p->next;
+	}
+	printf("共%d个元素\n",len);
+}
+int main()
+{
+	queue Q;
+	Init_queue(&Q);
+	//IsEmpty_queue(&Q);
+	En_queue(&Q,1);
+	En_queue(&Q,2);
+	En_queue(&Q,3);
+	En_queue(&Q,4);
+	En_queue(&Q,5);
+	En_queue(&Q,6);
+	Length_queue(&Q);
+	if(IsEmpty_queue(&Q)) printf("空队列\n");
+	else printf("不是空队列\n");
+	De_queue(&Q);
+	De_queue(&Q);
+	De_queue(&Q);
+	Traverse_queue(&Q);
+	Destory_queue(&Q);//撤销队列
+	if(IsEmpty_queue(&Q)) printf("空队列\n");
+	else printf("不是空队列\n");
+	return 0;
+}
+2、循坏队列
+//这是一个用数组模拟循坏链表
+//作者 Roye
+#include <stdio.h>
+#include <stdlib.h>
+#include <malloc.h>
+int rear=0,front=0;//初始化数组下表的值
+int num=0;//记录元素的个数
+void En_queue(int *p)//入队一个元素
+{
+    printf("输入入队的值：");
+    scanf("%d",p+rear);
+    rear=(rear+1)%6;//当r的值大于5时r的值就转向0，就实现了循环
+    num++;//入队，元素的总个数加一
+}
+void De_queue(int *p)//出队
+{
+    printf("出对的元素是：%d\n",p[front]);
+    front=(front+1)%6;
+    num--;//出队了元素，元素的个数就减一
+}
+int main()
+{
+    int s[6];
+    int chi;
+    while(scanf("%d",&chi))
+    {
+        if(chi==1)//选择出队还是入队，1表示入队，其他表示出队
+        {
+            if (num!=6)//判断是否为满
+                En_queue(s);
+            else
+                printf("队列已经满了，不能插入！\n");
+        }
+        else
+        {
+            if(num!=0)
+                De_queue(s);
+            else
+                printf("队列为空不能删除\n");
+
+        }
+    }
+    return 0;
+}
+3、迷宫求解
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct node//重命名
+{
+	int x;//存放横坐标的位置
+	int y;//存放纵坐标的位置
+	struct node * next;//指向下一个元素的指针
+}node,*pnode;
+typedef struct stack
+{
+	pnode top;//指向栈的顶部
+	pnode bottom;//指向栈底元素
+}stack,*pstack;
+bool t[5][5]={
+		true,false,false,false,false,
+		true,true,true,true,false,
+		true,false,false,false,true,
+		true,true,true,true,true,
+		false,false,false,false,false
+		};//初始化迷宫
+int i=0,j=0;
+void Init_stack(pstack s)//构造节点
+{
+	pnode p=(pnode)malloc(sizeof(node));
+	s->bottom=s->top=p;
+	p->next=NULL;
+	p->x=p->y=0;
+	return ;
+}
+void Push_stack(pstack p,int x,int y)//入栈
+{
+	
+	void Pop_stack(pstack );
+	if(t[x][y]==true)//如果位置为通，则纳入栈
+	{
+		pnode q=(pnode)malloc(sizeof(node));
+		q->x=x;
+		q->y=y;
+		q->next=p->top;
+		p->top=q;
+		i++;
+	}
+	else Pop_stack(p);//否则删除前一个定点节点
+	return ;
+}
+void Pop_stack(pstack p)//删除节点
+{
+	pnode r=p->top;
+	p->top=p->top->next;
+	free(r);
+}
+bool Get_stack(pstack p)
+{
+	if(p->top->x==3 &&p->top->y==4)
+		return true;
+	return false;
+}
+void Traverse_stack(pstack p)//遍历节点
+{
+	pnode r=p->top;
+	while(r->next!=NULL)
+	{
+		printf("<%d ,%d>\n",r->x,r->y);
+		r=r->next;
+	}
+	//putchar('\n');
+	return ;
+}
+int main()
+{
+	stack s;//构造一个节点
+	Init_stack(&s);
+	
+	//int i,j,c=1;
+	/*for(i=0;i<5 && c;i++)
+	{
+		for(j=0;j<5 && c;j++)
+		{
+			Push_stack(&s,i,j);
+			if(Get_stack(&s))
+			{
+				c=0;
+			break;
+			}
+		}
+	}*/
+	while(!Get_stack(&s))//当没有找到出口时，就继续探索，否则结束
+	{
+		Push_stack(&s,i,j);
+	}
+	Traverse_stack(&s);
+	return 0;
+}
+4、树
+#include <stdio.h>
+#include <malloc.h>
+int cnt=0;
+int de=0;
+typedef struct tree
+{
+	int date;
+	struct tree *leftchild;
+	struct tree *rightchild;
+}tree,*ptree;
+void PreTraversr_tree(ptree t);
+ptree Init_tree()
+{
+	ptree pA=(ptree)malloc(sizeof(tree));
+	printf("输入根节点的值：");
+	scanf("%d",&pA->date);
+	pA->leftchild=pA->rightchild=NULL;
+	return pA;
+}
+ptree Creat_tree(ptree t)
+{
+	ptree pA=(ptree)malloc(sizeof(tree));
+	ptree pB=(ptree)malloc(sizeof(tree));
+	pA->leftchild=pA->rightchild=NULL;
+	pB->leftchild=pB->rightchild=NULL;
+	t->leftchild=pA;
+	t->rightchild=pB;
+	printf("输入左右节点的值：");
+	scanf("%d%d",&pA->date,&pB->date);
+	return pA;
+}
+void PreTraverse_tree(ptree t)
+{
+	if(t!=NULL)
+	{
+		printf("%d ",t->date);
+		PreTraverse_tree(t->leftchild);
+		PreTraverse_tree(t->rightchild);
+	}
+	return ;
+}
+void Countleaf_tree(ptree t)
+{
+	if(t->leftchild!=NULL&&t->rightchild!=NULL)
+	{
+		Countleaf_tree(t->leftchild);
+		Countleaf_tree(t->rightchild);
+	}
+	else
+		cnt++;
+	return ;
+}
+int Depth_tree(ptree t)
+{
+	if(t->leftchild!=NULL&&t->rightchild!=NULL)
+	{
+		de++;
+		int del,def;
+		del=Depth_tree(t->leftchild);
+		def=Depth_tree(t->rightchild);
+		return del>def?del:def;
+	}
+	return de;
+}
+int main()
+{
+	ptree T;
+	ptree Root;
+	int n,c=1;
+	printf("输入数字选择菜单：\n1.表示创建节点\n2.表示结束创建\n");
+	while (scanf("%d",&n)&&n==1)
+	{
+		
+		if(c)
+		{
+			T=Init_tree();
+			c=0;
+			Root=T;
+		}
+		else T=Creat_tree(T);
+	}
+	PreTraverse_tree(Root);
+	printf("\n");
+	Countleaf_tree(Root);
+	printf("子叶节点为：%d\n",cnt);
+	printf("树的深度：%d\n",Depth_tree(Root)+1);
+	return 0;
+}
+5、栈
+//栈的实现
+//用一块连续的内存来表示一个栈
+#include <stdio.h>
+#include <malloc.h>
+#include <string.h>
+#include <stdlib.h>
+#define stacksize 100 //初始栈的大小
+#define stackaddsize 10 //增加栈的大小
+typedef struct node //重新定义结构体
+{
+	int *base;//指向栈的底部
+	int *top;//指向栈的顶部
+	int stsize;//记录栈的大小，跟栈有几个元素不是同意个概念
+}stack,* pstack;
+
+void Init_stack(pstack st)//构造一个空栈
+{
+	st->base=(int *)malloc(stacksize*sizeof(int));//分配base指针
+	if(!st->base)//判断base指针是否分配好
+		exit(-1);
+	st->top=st->base;//初始化的时候，将指针base的值赋值给top指针（初始化的时候就是base和top的值相同）
+	st->stsize=stacksize;//将stacksize的值赋值给栈的大小stsize
+	return ;
+}
+
+bool IsEmpty(pstack st)//判断是否为空
+{
+	if(st->base==st->top)
+		return true;
+	return false;
+}
+
+void Push_stack(pstack st,int e)//将元素e入栈
+{
+	if(st->top - st->base >=st->stsize)//入栈之前要判断栈是否已满
+	{
+		printf("the stack is full,go on add meory.\n");
+		st->base=(int *)realloc(st->base,(st->stsize + stackaddsize)*sizeof(int));//追加内存
+		if(!st->base)//判断base是否分配成功
+			exit(-1);
+		st->top=st->base + st->stsize;//利用base指针找到top指针
+		st->stsize +=stackaddsize;//更新栈的大小
+		
+	}
+	*(st->top++)=e;//将e入栈
+	return ;
+}
+
+void Traverse_stack(pstack st)//遍历栈
+{
+	if (!st->stsize)//判断栈是否存在
+		return ;
+	if (IsEmpty(st))//判断栈是否为空
+	{
+		printf("the stack is null and not traverse.\n");
+		return ;
+	}
+	int *p=st->base;//定义一个指针p保存栈底的地址
+	printf("the traverse is :");
+	while(p < st->top)//当p不超过top时，就遍历输出
+	{
+		printf("%d ",*p++);
+
+	}
+	putchar('\n');
+	return ;
+}
+
+void Pop_stack(pstack st)//出栈
+{
+	if(IsEmpty(st))//先判断是否为空
+	{
+		printf("the stack is null.you don't pop.\n");
+		return ;
+	}
+	printf("the pop is :%d\n",*(--st->top));//不为空时，就输出栈顶元素，top指针往下挪一个
+	return ;
+}
+
+int Get_stack(pstack st)//得到栈顶元素
+{
+	if(IsEmpty(st))
+		exit(-1) ;
+	//用指针保存top的值
+	return *(st->top-1);
+}
+
+void Clean_stack(pstack st)//清空栈
+{
+	if(!st->stsize)
+		exit(-1);
+	st->top=st->base;//将top的值与base的值相等就清空栈了
+	st->base=st->top=NULL;
+	st->stsize=0;
+	return ;
+}
+
+int Getlength_stack(pstack st)//得到栈元素的个数
+{
+	if(IsEmpty(st))
+		exit(-1) ;
+	int len;
+	len=st->top-st->base;//st的top指针减去base指针就得到元素的个数
+	return len;
+}
+
+void Destory_stack(pstack st)//撤销栈
+{
+	if(!st->base)
+		exit(-1);
+	free(st->base);//释放为base分配的动态空间即为撤销
+	printf("the stack destory success.\n");
+	
+}
+int main()
+{
+	stack st;
+	Init_stack(&st);
+	IsEmpty(&st);
+	Push_stack(&st,1);
+	Push_stack(&st,2);
+	Push_stack(&st,3);
+	Push_stack(&st,4);
+	Pop_stack(&st);
+	int e=Get_stack(&st);
+	printf("the top is:%d\n",e);
+	e=Getlength_stack(&st);
+	printf("the stack size is：%d\n",e);
+	Traverse_stack(&st);
+	Clean_stack(&st);
+	Traverse_stack(&st);
+	Destory_stack(&st);
+	return 0;
+}
+6、快排
+//双指针快排
+/*s[10]={5,1,4,7,8,0,2,3,6,9}
+
+当r<p的时候
+	5，1，4，7，8，0，2，3，6，9
+把5当作主元r=0,p=9;
+用一个val保存主元5
+1.从右边往左边找，当找到一个数num比5小的时候就让num替换5,即s[r=0]=s[p=7]
+	3，1，4，7，8，0，2，3，6，9
+2.然后从左边往右边找，当找当一个数num比s[p=7]大的时候，（r=2）就让s[p=7]=s[r=2]
+	3，1，4，7，8，0，2，4，6，9
+当r<p,再循环1->2
+s[r]=val;
+返回r或者p
+
+1.	5，1，4，7，8，0，2，3，6，9
+2.	3，1，4，7，8，0，2，3，6，9
+3.	3，1，4，7，8，0，2，7，6，9
+4.	3，1，4，2，8，0，2，7，6，9
+5.	3，1，4，2，8，0，8，7，6，9
+6.	3，1，4，2，0，0，8，7，6，9
+7.	3，1，4，2，0，5，8，7，6，9
+
+*/
+#include <stdio.h>
+int findpos(int *s,int r,int p)//找到主元的位置
+{
+	int val=s[r];
+	while(r<p)//当r<p时就执行
+	{
+		while(r < p && val <= s[p])
+			--p;
+		s[r]=s[p];
+		while(r<p && val >= s[r])
+			++r;
+		s[p]=s[r];
+	}
+	s[r]=val;
+	return r;//返回r的值跟返回p的值都是一样
+}
+void quicksort(int *s,int r,int p)//快排主函数，r是数组的最左边的下标值，p是数组的最右边的下标值
+{
+	if(r<p)//当r<p时
+	{
+		int q=findpos(s,r,p);
+		quicksort(s,r,q-1);
+		quicksort(s,q+1,p);
+	}
+}
+int main()
+{
+    int s[10]={5,1,4,7,8,0,2,3,6,9};
+	int i;
+    quicksort(s,0,9);//调用快排函数
+	for(i=0;i<10;++i)
+		printf("%d ",s[i]);
+    putchar('\n');
+    return 0;
+}
+7、迷宫求解
+#include <stdio.h>
+//定义一个栈，用于存放路径
+struct stack
+{
+    //x标记入栈的横坐标
+    int x;
+    //y标记入栈的纵坐标
+    int y;
+}stack[ 100];
+int main()
+{
+    //初始化迷宫，0表示墙不可通，1表示可通
+    //起点是（1,1），终点是（6,6）
+    int maze[8][8]={{0,0,0,0,0,0,0,0},
+                    {0,1,1,1,1,1,0,0},
+                    {0,0,0,1,0,1,1,0},
+                    {0,0,0,1,0,1,1,0},
+                    {0,0,0,1,1,0,1,0},
+                    {0,0,0,1,0,0,0,0},
+                    {0,0,0,1,1,1,1,0},
+                    {0,0,0,0,0,0,0,0}
+                    };
+    //定义四个方向，先向右搜索，若右不通则向下搜索，若向下也不通则向左搜索，若向下搜索不通则向上搜索
+    int dir[ 4][ 2] = {{ 0 , 1} , { 1 , 0} , { 0 , -1} , { -1, 0}};
+    //top指针用于指向栈顶
+    int top = -1;
+    int i;
+    //初始化起点
+    int dx=1,dy=1;
+    stack[ top].x = stack[ ++top].y = 1;
+    while( maze[6][6] != 2)//当终点没有被遍历是就一直搜索
+    {
+        printf("(%d,%d)\n",stack[top].x,stack[top].y);
+        for( i = 0;i < 4; ++i)
+        {
+            int n1 = dx, n2 = dy;
+            dx += dir[ i][ 0],dy += dir[ i][ 1];
+            if( maze[ dx][ dy] == 1)//如果未1则入栈
+            {
+                maze[ dx][ dy] = 2;//遍历之后就将此点赋值为2
+                stack[ ++top].x = dx;
+                stack[ top].y = dy;
+                break;
+            }
+            dx = n1;
+            dy = n2;
+        }
+        if(i >= 4)//当i大于等于4时就说明四个方向都遍历过了，即四个方向都不通
+        {
+            --top;
+            dx = stack[ top].x;
+            dy = stack[ top].y;
+        }
+    }
+    for(i = 0; i <= top; ++i)
+        printf("(%d,%d)\n",stack[i].x,stack[i].y);
+    return 0;
+}
+8、数组模拟树
+#include <stdio.h>
+//定义数的节点个数 20
+int tree[20];
+//m表示输入节点的个数
+int m;
+
+//创建节点
+void ceartpre(int n)
+{
+	//输入节点的值
+	scanf("%d",&tree[n]);
+	//创建左节点
+	if(2*n<m)
+		ceartpre(2*n);
+	//创建右节点
+	if(2*n+1<m)
+		ceartpre(2*n+1);
+}
+
+//先序遍历
+void preorder(int n)
+{
+	//访问根节点
+	printf("%d ",tree[n]);
+	//先序遍历左子树
+	if(2*n<m)
+		preorder(2*n);
+	//先序遍历右子树
+	if(2*n+1<m)
+		preorder(2*n+1);
+}
+
+//中序遍历
+void inorder(int n)
+{
+	
+	if(2*n<m)
+		inorder(2*n);
+	printf("%d ",tree[n]);
+	if(2*n+1<m)
+		inorder(2*n+1);
+}
+
+//后序遍历
+void deorder(int n)
+{
+
+	if(2*n<m)
+		deorder(2*n);
+	if(2*n+1<m)
+		deorder(2*n+1);
+	printf("%d ",tree[n]);
+}
+
+int main()
+{
+	scanf("%d",&m);
+	++m;
+	ceartpre(1);
+	preorder(1);
+	printf("\n----------------\n");
+	inorder(1);
+	printf("\n----------------\n");
+	deorder(1);
+	printf("\n----------------\n");
+	return 0;
+}
+9、
+//用链表实现L1与L2的合并
+#include <cstdio>
+#include <cstdlib>
+#include <malloc.h>
+#define List_size 100
+#define List_size_add 10
+typedef struct node
+{
+    int *base;
+    int listsize;
+    int length;
+}List;
+
+void Init_list( List *L)
+{
+    L->base=(int *)malloc(List_size * sizeof(int ));
+    if(!L->base)
+        exit(0);
+    L->length = 0;
+    L->listsize = List_size;
+}
+void unio_list(List *New, List *L1, List *L2)
+{
+    for(int i = 0; i < L1->length; ++i)
+    {
+        New->base[i] = L1->base[i];
+        New->length++;
+    }
+    int k = New->length;
+	int m = k;
+    for( i = k; i - k < L2->length; ++i)
+    {
+        bool flag = true;
+        for(int j = 0; j < k; ++j)
+        {
+            if(New->base[j] == L2->base[i - k])
+            {
+                flag = false;
+                break;
+            }
+        }
+        if(flag)
+        {
+            New->base[k ++] = L2->base[i - k];
+            New->length++;
+        }
+    }
+}
+int main()
+{
+    List L1, L2;
+    Init_list( &L1);
+    Init_list( &L2);
+	printf("plese input L1 counts:\n");
+	int cnt;
+	scanf("%d", &cnt);
+    int m = 0;
+    for( int i = 0; i < cnt; ++i)
+    {
+        int e;
+		printf("plese input %dth number:",i +1);
+        scanf("%d", &e);
+        L1.base[ m++] = e;
+        L1.length++;
+    }
+	printf("plese input L2 counts:\n");
+	scanf("%d", &cnt);
+    m = 0;
+    for(  i = 0; i < cnt; ++i)
+    {
+        int e;
+		printf("plese input %dth number:",i +1);
+        scanf("%d", &e);
+        L2.base[ m++] = e;
+        L2.length++;
+    }
+    List Newlist;
+    Init_list( &Newlist);
+    unio_list( &Newlist, &L1, &L2);
+	printf("The L1 is:\n");
+	for( i = 0; i < L1.length; ++i)
+		printf("%d ",L1.base[ i]);
+	putchar('\n');
+
+	printf("The L2 is:\n");
+	for( i = 0; i < L2.length; ++i)
+		printf("%d ",L2.base[ i]);
+	putchar('\n');
+
+	printf("The L1 union L2 is:\n");
+	for( i = 0; i < Newlist.length; ++i)
+		printf("%d ",Newlist.base[ i]);
+	putchar('\n');
+    return 0;
+}
+10、
+//合并链表L1和链表L2至New
+/*#include <cstdio>
+#include <iostream>
+#include <list>
+using namespace std;
+int main()
+{
+	list <int >L1;
+	list <int >L2;
+	printf("请输入L1的大小：");
+	int size;
+	scanf("%d", &size);
+	printf("请输入L1：");
+	for( int i = 0; i < size; ++i)
+	{
+		int e;
+		scanf("%d", &e);
+		L1.push_front(e);
+	}
+	printf("请输入L2的大小：");
+	scanf("%d", &size);
+	printf("请输入L2：");
+	for(  i = 0; i < size; ++i)
+	{
+		int e;
+		scanf("%d", &e);
+		L2.push_front(e);
+	}
+	list <int > New;
+	for(list <int >::iterator j=L1.begin(); j != L1.end(); ++j)
+		New.push_front(*j);
+	for( j=L2.begin(); j != L2.end(); ++j)
+		New.push_back(*j);
+	for( j=New.begin(); j != New.end(); ++j)
+		printf("%d ", *j);
+	putchar('\n');
+	
+	return 0;
+}
+*/
+11、
+//求a的i次方
+/*#include <cstdio>
+typedef long long LL;
+LL pow(LL a, int i)
+{
+	if(i > 1)
+	{
+		if( i % 2 == 0)
+			return pow( a, i/2) *　pow( a, i/2);
+		else
+			return pow( a ,i/2) * pow ( a, i/2 + 1);
+	}
+	else 
+		return a;
+}
+int main()
+{
+	LL x;
+	int i;
+	scanf("%lld%d", &x, &i);
+	LL e = pow( x, i);
+	printf("%lld\n", e);
+	return 0;	
+}*/
+12、
+//对称矩阵的压缩存储
+#include <cstdio>
+#define N 6
+int main()
+{
+	int arr[N][N];  //原矩阵
+	for( int i = 1; i < N; ++i)
+		for( int j = 1; j < N; ++j)
+			scanf("%d", &arr[i][j]);
+	int k[N * (N + 1) /2];   // 存储的压缩矩阵
+	int pos = 0;
+	for( i = 1; i < N; ++i)
+		for( int j = i; j < N; ++j)
+		{
+			//最为重要,
+			//压缩公式 ： pos= i >= j ? i * (i - 1) / 2 + j - 1: j * (j - 1) / 2 + i - 1;
+			if(i >= j) k[i * (i - 1) / 2 + j - 1]= arr[i][j];
+			else  k[j * (j - 1) / 2 + i - 1]= arr[i][j];
+		}
+	//输出压缩矩阵的存储
+	for( i = 0; i < N * (N - 1) / 2; ++i)
+		printf("%d ", k[i]);
+	putchar('\n');
+	//还原矩阵
+	for( i = 1; i < N; ++i)
+	{
+		for( int j = 1; j < N; ++j)
+		{
+			if( i >= j)
+				printf("%d ", k[i * (i - 1) / 2 + j - 1]);
+			else
+				printf("%d ", k[j * (j - 1) / 2 + i - 1]);
+		}
+		putchar('\n');
+	}
+	return 0;
+}
+13、
+//快速幂
+//输入x，i
+//求x的i次方
+#include <cstdio>
+long long muilt(int x, int i)
+{
+	//当i > 1时就一直递归求解 
+	if(i > 1)
+	{
+		//当i > 1时就可以将此时x的i次方分为两部分
+		long long a = muilt(x, i / 2);
+		//当次方i为偶数时，就返回i / 2 * i / 2
+		return i % 2 == 0? a * a:a * a * x;
+	}
+	//直到要求的次方i等于1的时候
+	else
+		return x;
+}
+int main()
+{
+	int x,i;
+	while(~scanf("%d%d", &x, &i))
+	printf("%lld\n", muilt(x,i));
+	return 0;
+}
+
+
+
+
+

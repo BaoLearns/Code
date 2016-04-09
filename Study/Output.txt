@@ -1,0 +1,81 @@
+#include <iostream>
+#include <cstdio>
+#include <cstdio>
+#include <vector>
+#include <algorithm>
+#define maxn 50
+#define INT1 int*
+#define MIN(x, y) x > y? y: x
+#define What_is(x) cout << #x << endl
+//#define Stack 1
+typedef int* INT2;
+using namespace std;
+#if Stack
+inline Max(int a, int b)
+{
+    return a > b? a : b;
+}
+int hash[maxn];
+char ch[50];
+void dfs(int len, int num)
+{
+    //cout << "!!" << endl;
+    if(len == num)
+    {
+        //cout << "1" << endl;
+        cout << ch << endl;
+        return;
+    }
+    for(int i = 0; i < 26; ++i)
+    {
+        if(hash[i])
+        {
+            hash[i]--;
+            ch[num] = (char)(i + 97);
+            dfs(len, num + 1);
+            hash[i]++;
+        }
+    }
+}
+#endif
+int main(int arge, char *argv[])
+{
+#ifdef Stack
+    unsigned char chr = 127;
+    int sum = 100;
+    chr += 1;
+    sum += chr;
+    cout << sum << " " << (int)chr << endl;
+    char p[] = "I love C++!";
+    char arr[100];
+    sprintf(arr, "%s", p);
+    cout << arr << endl;
+    printf("%20.5s", arr);
+    cout << "!!!!" << endl;
+    printf("%2.5lf\n", 1001.100531);
+    for(int i = 1; i < 1001; ++i)
+    {
+        int j = i, val = i;
+        while(j)
+        {
+            val += j % 10;
+            j /= 10;
+        }
+        hash[val] = true;
+        if(!hash[i])
+            cout << i << " ";
+    }
+    string st;
+    cin >> st;
+    int len = st.length();
+    for(int i = 0; i < len; ++i)
+        hash[st[i] - 97]++;
+    dfs(len, 0);
+#endif
+    int i = 0;
+    while(arge-- > 0)
+        cout << argv[i++];
+    cout << __DATE__ << endl;
+    cout << __TIME__ << endl;
+    return 0;
+}

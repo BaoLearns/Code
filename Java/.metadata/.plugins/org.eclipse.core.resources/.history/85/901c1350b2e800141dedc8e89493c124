@@ -1,0 +1,46 @@
+//package hello1;	
+import java.util.*;
+public class Main {
+	public static void main(String[] args){
+		//System.out.println("a");
+		/*Scanner in = new Scanner(System.in);
+		String st = in.nextLine();
+		System.out.println(st);
+		//int x = in.nextInt(5);
+		//System.out.println(x);
+		System.out.println(st + 0x12);
+		st = in.nextLine();
+		System.out.println(st.equals("bye"));
+		String s1 = "abcd";
+		String s2 = "abcd";
+		System.out.println("abc".compareTo(s2));
+		System.out.println("abc".charAt(2));
+		System.out.println("012345".substring(2, 3));
+		*/
+		/*
+		String st = new String("abcde");
+		System.out.println(st.indexOf('e'));
+		System.out.println(st.toUpperCase());
+		System.out.println(st);
+		System.out.println(Math.PI);
+		System.out.println(Math.pow(2, 5));
+		*/
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt();
+		int[] arr = new int[100];
+		int pos = 0;
+		for(int i = 2; n > 1; ++i)
+		{
+			while(n % i == 0 && n > 0)
+			{
+				//System.out.println(i);
+				arr[pos++] = i;
+				n /= i;
+			}
+		}
+		System.out.print(arr[0]);
+		for(int i = 1; i < pos; ++i)
+			System.out.print("*" + arr[i]);
+		System.out.println();
+	}
+}

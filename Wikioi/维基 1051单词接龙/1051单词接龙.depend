@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1403696723 source:e:\c\1051单词接龙\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1406605465 source:e:\c\维基 1051单词接龙\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<malloc.h>
+

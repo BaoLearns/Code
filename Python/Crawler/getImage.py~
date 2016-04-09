@@ -1,0 +1,23 @@
+import re
+import urllib
+
+def getHtml(url):
+    page = urllib.urlopen(url)
+    html = page.read()
+    return html
+
+def getImage(html):
+    reg = r'src="(.*?\mood_app)"'
+    imgre = re.compile(reg)
+    imgList = re.findall(imgre, html)
+    x = 1
+    for imgurl in imgList:
+        try:
+            urllib.urlretrieve(imgurl, 'image/%s.jpg' %x)
+            x += 1
+        except:
+            pass
+
+url = "http://user.qzone.qq.com/2845192148/main"
+
+getImage(getHtml(url))

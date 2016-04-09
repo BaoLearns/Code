@@ -1,0 +1,43 @@
+import java.awt.SystemColor;
+import java.util.Scanner;
+public class Hello1 {
+	static int fac(int n){
+		int sum = 1;
+		while(n > 0)
+			sum *= n--;
+		return sum;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println("Hello!");
+//		Scanner in = new Scanner(System.in);
+//		System.out.println("echo:" + in.nextLine());
+//		System.out.println("100 - 23 = "+(100-in.nextInt()));
+//		Scanner in = new Scanner(System.in);
+//		int n = in.nextInt();
+//		int[] numbers = new int[100];
+//		int sum = 0;
+//		double avg = 0;
+//		for(int i = 0; i < n; ++i)
+//		{
+//			numbers[i] = in.nextInt();
+//			sum += numbers[i];
+//		}
+//		avg = sum / n * 1.0;
+//		System.out.println(avg);
+//		for(int i = 0; i < n; ++i)
+//		{
+//			if(numbers[i] > avg)
+//				System.out.println(numbers[i]);
+//		}
+//		
+		Scanner in = new Scanner(System.in);
+		String s = new String("hello");
+		String t = s;
+		System.out.print(s + "\n" + s);
+		System.out.println(s.charAt(1));
+		System.out.println(fac(5));
+		//s.charAt(1) = 'a';
+	}
+
+}

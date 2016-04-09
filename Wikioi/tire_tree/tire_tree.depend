@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1406085277 source:e:\c\tire_tree\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<malloc.h>
+

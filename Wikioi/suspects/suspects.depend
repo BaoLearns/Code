@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1408608141 source:e:\c\suspects\main.cpp
+	<iostream>
+	<stdio.h>
+
