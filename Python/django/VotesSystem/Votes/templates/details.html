@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ vote.title }}</title>
+    <link rel = "stylesheet" type = "text/css" href = "../../static/css/init.css" />
+</head>
+    <div id="container">
+
+        <div id="header">
+            <div id="htop">
+                <div id="htopleft">
+                    Vote System
+                </div>
+
+                <div id="htopright">
+
+                    <ul>
+                        <li>
+                            {% if username %}
+                                <a href="user.html">{{ username }}</a>|<a href="../logout">Logout</a></p>
+                            {% else %}
+                                <a href="../../login">Login</a>
+
+                            {% endif %}
+                        </li>
+
+                        <li><a href="/register">Register</a></li>
+                        <li><a id="active" href="/vote">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="hbottom">
+                <ul>
+                    <li>Home</li>
+                    <li id="active">Detail</li>
+                    <li>Register</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <h1><a href="#">{{ vote.title }}</a>&nbsp;&nbsp;&nbsp;&nbsp;Votes:{{vote.total_votes}}</h1>
+            <h2>Start Date:{{vote.start_date}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Date:{{vote.end_date}}</h2>
+            {% for vote in votes_list %}
+                <h2>{{ forloop.counter }}&nbsp;&nbsp;User Name:{{ vote.user.user.username }} </h2>
+                <h2>&nbsp;&nbsp;&nbsp;&nbsp;Resume:{{ vote.user.resume }}</h2>
+                <h2>&nbsp;&nbsp;&nbsp;<a href="user/{{ vote.user.id }}"> Votes:{{ vote.votes }}</a></h2>
+                <hr>
+
+            {% endfor %}
+        </div>
+        <div id="footer">
+            Copyright &copy; 2016. Oliver Bao All Rights Reserved. Any Problem Contact LBaoCode@gmail.com .
+        </div>
+    </div>
+</html>

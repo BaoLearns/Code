@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HomePage</title>
+    <link rel = "stylesheet" type = "text/css" href = "../../static/css/init.css" />
+</head>
+    <div id="container">
+        <div id="header">
+            <div id="htop">
+                <div id="htopleft">
+                    Vote System
+                </div>
+
+                <div id="htopright">
+
+                    <ul>
+                        <li>
+                            {% if username %}
+                                <a href="/user/{{ username }}">{{ username }}</a>|<a href="../logout">Logout</a></p>
+                            {% else %}
+                                <a href="../login">Login</a>
+
+                            {% endif %}
+                        </li>
+
+                        <li><a href="/register">Register</a></li>
+                        <li><a id="active" href="/vote">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="hbottom">
+                <ul>
+                    <li id="active">Home</li>
+                    <li>Detail</li>
+                    <li>Register</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            {% for vote in vote_list %}
+                <h1><a href="/vote/{{ vote.id }}">{{ vote.title }}</a>&nbsp;&nbsp;&nbsp;&nbsp;Votes:{{vote.total_votes}}</h1>
+                <h3>Start Date:{{vote.start_date}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Date:{{vote.end_date}}</h3>
+                <h2><a href="{{ vote.id }}">Click Vote</a></h2>
+                <hr>
+            {% endfor %}
+
+        </div>
+        <div id="footer">
+            Copyright &copy; 2016. Oliver Bao All Rights Reserved. Any Problem Contact LBaoCode@gmail.com .
+        </div>
+    </div>
+</html>

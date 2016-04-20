@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel = "stylesheet" type = "text/css" href = "../../static/css/init.css" />
+</head>
+    <div id="container">
+
+        <div id="header">
+            <div id="htop">
+                <div id="htopleft">
+                    Vote System
+                </div>
+
+                <div id="htopright">
+
+                    <ul>
+                        <li>
+                            {% if username %}
+                                <a href="user.html">{{ username }}</a>|<a href="../logout">Logout</a></p>
+                            {% else %}
+                                <a href="../login">Login</a>
+
+                            {% endif %}
+                        </li>
+
+                        <li><a href="/register">Register</a></li>
+                        <li><a id="active" href="/vote">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="hbottom">
+                <ul>
+                    <li>Home</li>
+                    <li>Detail</li>
+                    <li>Register</li>
+                    <li id="active">Login</li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            {{ error_info }}
+            <form method = "post">
+                <h1>{{form.as_p}}</h1>
+                <h1><input type="submit" value="Submit" />|<input type="reset" value="Reset" /></h1>
+            </form>
+
+
+        </div>
+        <div id="footer">
+            Copyright &copy; 2016. Oliver Bao All Rights Reserved. Any Problem Contact LBaoCode@gmail.com .
+        </div>
+    </div>
+</html>

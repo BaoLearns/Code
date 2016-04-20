@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07561b80-d142-4a2f-9fae-2dff7d1f310f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/.idea/Jungleland10.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/archives.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/css/Jungleland.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/css/ie6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/css/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/arrow-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/button-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/button-hover-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/clock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/comment.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/content-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/email.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/feed-icon14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/feed-icon16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/firefox-gray.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/footer-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/gravatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/header-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/header-search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/img-featured.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/img-post.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/left-nav-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/quote.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/ribbon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/ribbon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/right-nav-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/sep-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/thumb-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/thumb-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/thumb-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/thumb-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/images/twitter.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/BBS/App/templates/App/style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/.idea/LBaoCode.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/LBaoCode/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/LBaoCode/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/LBaoCode/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/LBaoCode/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/migrations/0002_author_book.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/migrations/0003_auto_20160227_1436.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/migrations/0004_user.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/migrations/0005_auto_20160327_1504.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/migrations/0006_remove_book_published_date.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/templates/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/templates/showAuthor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/blog/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/upload/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/django/LBaoCode/upload/favicon_MPJAUtT.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/2048.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/2048.py.back" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/BigNbaTop50" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Number.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/stackoverflow_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/top-stackoverflow-questions.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/top-stackoverflow-questions.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/top-stackoverflow-questions.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/top.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/tutorial/Books.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/tutorial/Resources.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/tutorial/item.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/tutorial/scrapy.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/tutorial/tutorial/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/tutorial/tutorial/items.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/tutorial/tutorial/pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/tutorial/tutorial/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/tutorial/tutorial/spiders/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/Scrapy/tutorial/tutorial/spiders/dmoz_spider.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/SocketServer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/baidutieba.com.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/brithday_send_email/downloap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/brithday_send_email/nongli.com.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/brithday_send_email/temp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/brithday_send_email/yw11.com.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/client.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/cookie.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/cookie.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/crawl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/displayNumType.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/.idea/dictionaries/royecode.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/.idea/django.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/migrations/0002_auto_20160304_1627.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/migrations/0003_auto_20160304_1631.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/.idea/Jungleland10.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/archives.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/css/Jungleland.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/css/ie6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/css/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/arrow-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/button-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/button-hover-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/clock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/comment.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/content-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/email.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/feed-icon14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/feed-icon16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/firefox-gray.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/footer-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/gravatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/header-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/header-search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/img-featured.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/img-post.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/left-nav-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/quote.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/ribbon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/ribbon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/right-nav-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/sep-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/thumb-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/thumb-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/thumb-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/thumb-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/images/twitter.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/templates/App/style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/App/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/BBS/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/BBS/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/BBS/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/BBS/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/home/royecode/Programming/python/django/BBS/APP/upload/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/home/royecode/Programming/python/django/BBS/APP/upload/icon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS/vim.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/migrations/0002_auto_20160305_0532.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/migrations/0003_auto_20160305_0556.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/migrations/0004_bbs_user_email.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/upload_imgages/default.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/upload_imgages/favicon_CsEWFaa.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/upload_imgages/favicon_aC8jT1p.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/App/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/BBS_Pro/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/BBS_Pro/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/BBS_Pro/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/BBS_Pro/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/App/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/App/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/.idea/Jungleland10.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/archives.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/css/Jungleland.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/css/ie6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/css/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/arrow-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/button-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/button-hover-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/clock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/comment.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/content-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/email.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/feed-icon14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/feed-icon16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/firefox-gray.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/footer-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/gravatar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/header-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/header-search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/img-featured.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/img-post.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/left-nav-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/quote.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/ribbon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/ribbon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/right-nav-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/sep-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/thumb-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/thumb-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/thumb-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/thumb-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/images/twitter.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/BBS_Pro/templates/static/style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/.idea/LBaoCode.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/LBaoCode/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/LBaoCode/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/LBaoCode/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/LBaoCode/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/migrations/0002_author_book.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/migrations/0003_auto_20160227_1436.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/migrations/0004_user.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/migrations/0005_auto_20160327_1504.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/migrations/0006_remove_book_published_date.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/templates/register.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/templates/showAuthor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/blog/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/upload/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/LBaoCode/upload/favicon_MPJAUtT.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/Mysite/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/Mysite/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/Mysite/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/Mysite/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/Mysite/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/templates/west/templay.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/west/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/west/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/west/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/west/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/west/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/west/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/west/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/Mysite/west/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/django.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/mysite/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/mysite/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/mysite/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/mysite/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/static/polls/images/background.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/static/polls/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/static/polls/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/templates/polls/detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/templates/polls/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/templates/polls/results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/polls/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/mysite/templates/admin/base_site.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/books/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/books/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/books/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/books/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/books/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/books/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/books/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/books/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/new_mysite/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/new_mysite/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/new_mysite/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/django/new_mysite/new_mysite/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/first.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/fork.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/ftpClient.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/ftpServer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/gcd.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/getBDTB_scrapy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/image.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/langage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/main.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/makeTextFile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/nongli.com.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/notes.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/output" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/output.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/outputRandNumber.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/prim.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/project/project01/simple_markup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/project/project01/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/project/project01/text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/project/project01/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/qiushibaike.com.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/qiushibaike.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/readTextFile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/scrapy01.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/second.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/servir.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/str.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/temp.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/testCliect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/testServer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/testUdp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/testUdpCliect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/thread.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/weibo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../python/yeild.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/BBS/App/views.py" afterPath="$PROJECT_DIR$/django/BBS/App/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/BBS/BBS/settings.py" afterPath="$PROJECT_DIR$/django/BBS/BBS/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/django/BBS/BBS/urls.py" afterPath="$PROJECT_DIR$/django/BBS/BBS/urls.py" />
+    </list>
+    <ignored path="Python.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Python" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7692308">
+              <caret line="205" column="28" selection-start-line="205" selection-start-column="28" selection-end-line="205" selection-end-column="28" />
+              <folding>
+                <element signature="e#20#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.25">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="46" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/VotesSystem/static/css/init.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/user.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.75">
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/django/VotesSystem/VotesSystem/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/django/VotesSystem/static/css/init.css" />
+        <option value="$PROJECT_DIR$/django/VotesSystem/VotesSystem/settings.py" />
+        <option value="$PROJECT_DIR$/django/VotesSystem/Votes/models.py" />
+        <option value="$PROJECT_DIR$/django/VotesSystem/Votes/admin.py" />
+        <option value="$PROJECT_DIR$/django/VotesSystem/Votes/templates/details.html" />
+        <option value="$PROJECT_DIR$/django/VotesSystem/Votes/templates/register.html" />
+        <option value="$PROJECT_DIR$/django/VotesSystem/Votes/templates/login.html" />
+        <option value="$PROJECT_DIR$/django/VotesSystem/Votes/templates/user.html" />
+        <option value="$PROJECT_DIR$/django/VotesSystem/Votes/templates/index.html" />
+        <option value="$PROJECT_DIR$/django/VotesSystem/Votes/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="26" />
+    <option name="width" value="1366" />
+    <option name="height" value="718" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VotesSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VotesSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VotesSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VotesSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VotesSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VotesSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Votes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VotesSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Votes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07561b80-d142-4a2f-9fae-2dff7d1f310f" name="Default" comment="" />
+      <created>1460886593689</created>
+      <option name="number" value="Default" />
+      <updated>1460886593689</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="26" width="1366" height="718" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3316252" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/static/css/init.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/VotesSystem/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#20#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/static/css/init.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/VotesSystem/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#20#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/static/css/init.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/VotesSystem/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#20#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/static/css/init.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/VotesSystem/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#20#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/static/css/init.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/VotesSystem/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/static/css/init.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="46" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.75">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django/VotesSystem/Votes/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7692308">
+          <caret line="205" column="28" selection-start-line="205" selection-start-column="28" selection-end-line="205" selection-end-column="28" />
+          <folding>
+            <element signature="e#20#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

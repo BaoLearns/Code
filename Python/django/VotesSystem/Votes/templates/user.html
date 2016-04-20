@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User</title>
+    <link rel = "stylesheet" type = "text/css" href = "../../static/css/init.css" />
+</head>
+    <div id="container">
+        <div id="header">
+            <div id="htop">
+                <div id="htopleft">
+                    Vote System
+                </div>
+
+                <div id="htopright">
+
+                    <ul>
+                        <li>
+                            {% if username %}
+                                <a href="user/{{ user.id }}">{{ username }}</a>|<a href="../logout">Logout</a></p>
+                            {% else %}
+                                <a href="../login">Login</a>
+
+                            {% endif %}
+                        </li>
+
+                        <li><a href="/register">Register</a></li>
+                        <li><a id="active" href="/vote">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="hbottom">
+                <ul>
+                    <li id="active">Home</li>
+                    <li>Detail</li>
+                    <li>Register</li>
+                    <li>Login</li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <ul>
+                <li>{{ user.user.username }}</li>
+                <li>{{ user.email }}</li>
+                <li>{{ user.resume }}</li>
+
+
+
+
+            </ul>
+
+        </div>
+        <div id="footer">
+            Copyright &copy; 2016. Oliver Bao All Rights Reserved. Any Problem Contact LBaoCode@gmail.com .
+        </div>
+    </div>
+</html>
