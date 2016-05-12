@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <script src="http://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+        <script>{% block script %}{% endblock %}</script>
+
+        <title>{% block title %}{% endblock %}</title>
+    <style>
+
+        body{
+            color: #0c3c26;
+            font-family: "Roboto",Corbel,Avenir,"Lucida Grande","Lucida Sans",sans-serif;
+        }
+        a{
+            color:steelblue;
+        }
+    </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand" href="/">Online Judge</a></div>
+                <ul class="nav navbar-nav">
+                {% block navbar %}{% endblock %}
+                </ul>
+                {% if user %}
+                <p class="navbar-collapse navbar-text  navbar-right">Welcome,
+                    <a href="/user/{{ user.id }}" class="navbar-link bg-info">{{ user.name }} </a>
+                    <a href="/logout" class="navbar-link bg-danger">Exit</a>
+                </p>
+                {% else %}
+                <div class="navbar-collapse navbar-right">
+                    <a href="/login"><button class="btn btn-primary navbar-btn">Sign in</button></a>
+                    <a href="/register"><button class="btn btn-default navbar-btn">Register</button></a>
+                </div>
+                {% endif %}
+            </div>
+        </nav>
+        <div class="container">
+            <div class="page-header">
+            {% block header %}{% endblock %}
+            </div>
+            {% if err %}
+            <div class="alert alert-warning alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+              <strong>{{ err }}</strong>
+            </div>
+            {% endif %}
+        {% block content %}{% endblock %}
+        </div>
+        <footer>
+        <center>{% block footer %}<hr>Copyright &copy; 2016. LSNU All Rights Reserved.{% endblock %}</center>
+        </footer>
+    </body>
+</html>

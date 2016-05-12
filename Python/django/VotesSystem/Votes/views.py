@@ -5,7 +5,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from models import VotesSystem, User, Vote, ActiveUser
 from django.template import Context
 from django.utils.timezone import datetime
-from django import forms
+from form import RegisterForm, LoginForm
 from django.contrib.auth.models import User as baseuser
 
 #log file name
@@ -71,17 +71,6 @@ def index(request):
     write_log(datetime.now(), request.META['REMOTE_ADDR'])
     return render(request, 'index.html', context)
 
-class RegisterForm(forms.Form):
-    '''
-        Login Page
-        User form
-    '''
-    username = forms.CharField()
-    password = forms.CharField(widget = forms.PasswordInput)
-    headimage = forms.FileField()
-    email = forms.CharField()
-    resume = forms.CharField()
-
 def register(request):
     '''
         Register page
@@ -100,16 +89,8 @@ def register(request):
             return HttpResponseRedirect("/login/")
         return HttpResponse('It is Work.')
     else:
-        form = RegisterForm()
+        form = RegisterForm(initial={'resume':'You are best.'})
     return render_to_response('register.html', {'form':form,'username':read_username(request)})
-
-class LoginForm(forms.Form):
-    '''
-        Login page
-        User form
-    '''
-    username = forms.CharField()
-    password = forms.CharField(widget=forms.PasswordInput)
 
 def login(request):
     '''
@@ -206,3 +187,4 @@ def re_user(request, username):
     user = User.objects.get(pk=id)
     context = {'user':user, }
     return render_to_response('user.html', context)
+

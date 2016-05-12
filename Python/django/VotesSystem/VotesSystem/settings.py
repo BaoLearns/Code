@@ -131,3 +131,9 @@ STATIC_URL = '/static/'
 import os
 
 STATICFILES_DIRS = (os.path.join(os.path.dirname(__file__), '../static/').replace('\\','/'),)
+
+ADMINS = (
+    ('Oliver Bao', 'Royecode@163.com'),
+    ('Oliver Bao', 'LBaoCode@gmail.com'),
+
+)

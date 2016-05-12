@@ -1,0 +1,36 @@
+{% extends "problem/problem_base.html" %}
+
+{% block detail %}
+
+<table class="table">
+
+<col width="8%" />
+<col width="10%" />
+<col width="12%" />
+<col width="40%" />
+<col width="20%" />
+<col width="5%" />
+<col width="5%" />
+
+<tr>
+    <th>#</th>
+    <th>Author</th>
+    <th>Problem</th>
+    <th>Title</th>
+    <th>Date</th>
+    <th>Click</th>
+    <th>Like</th>
+</tr>
+{% for item in list %}
+<tr>
+    <th>{{ forloop.counter }}</th>
+    <th>{{ item.uid }}</th>
+    <th><a href="/problem/{{ item.id }}">{{ item.pid.title }}</a></th>
+    <th>{{ item.discuss }}</th>
+    <th>{{ item.date }}</th>
+    <th>{{ item.click_num }}</th>
+    <th>{{ item.like }}</th>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}

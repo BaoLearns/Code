@@ -1,0 +1,92 @@
+{% extends "base_list.html" %}
+
+{% block title %}Status List{% endblock %}
+
+{% block navbar %}{% include "include/navbar-problem.html" %}{% endblock %}
+
+{% block list %}
+<col width="10%" />
+<col width="20%" />
+<col width="18%" />
+<col width="12%" />
+<col width="20%" />
+<col width="20%">
+<tr>
+    <th>PID</th>
+    <th>USER</th>
+    <th>LANG</th>
+    <th>STATUS</th>
+    <th>RUN TIME</th>
+    <th>RUN MEMORY</th>
+</tr>
+{% for item in status %}
+<tr>
+    <th>{{ item.pid }}</th>
+    <th>{{ item.uid }}</th>
+    <th>
+        {% ifequal item.lang 0 %}
+            None
+        {% endifequal %}
+        {% ifequal item.lang 1 %}
+            C
+        {% endifequal %}
+        {% ifequal item.lang 2 %}
+            C++
+        {% endifequal %}
+        {% ifequal item.lang 3 %}
+            Java
+        {% endifequal %}
+        {% ifequal item.lang 4 %}
+            Python
+        {% endifequal %}
+        {% ifequal item.lang 5 %}
+            Pascal
+        {% endifequal %}
+        {% ifequal item.lang 6 %}
+            FORTRAN
+        {% endifequal %}
+
+    </th>
+    <th>
+        {% ifequal item.status 0 %}
+            Accepted    
+        {% endifequal %}
+        {% ifequal item.status 1 %}
+            Waiting    
+        {% endifequal %}
+        {% ifequal item.status 2 %}
+            Compiling    
+        {% endifequal %}
+        {% ifequal item.status 3 %}
+            Running    
+        {% endifequal %}
+        {% ifequal item.status -1 %}
+            Compilation Error    
+        {% endifequal %}
+        {% ifequal item.status -2 %}
+            Syntax Error    
+        {% endifequal %}
+        {% ifequal item.status -3 %}
+            Runtime Error    
+        {% endifequal %}
+        {% ifequal item.status -4 %}
+            Output Limit Exceeded    
+        {% endifequal %}
+        {% ifequal item.status -5 %}
+            Time Limit Exceeded    
+        {% endifequal %}
+        {% ifequal item.status -6 %}
+            Memory Limit Exceeded    
+        {% endifequal %}
+        {% ifequal item.status -7 %}
+            Wrong Answer    
+        {% endifequal %}
+        {% ifequal item.status -8 %}
+            Presentation Error    
+        {% endifequal %}
+    </th>
+    <th>{{ item.run_time }}</th>
+    <th>{{ item.run_memory }}</th>
+</tr>
+{% endfor %}
+{% endblock %}

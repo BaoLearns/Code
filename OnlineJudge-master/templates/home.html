@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}LeShan Normal University Online Judge{% endblock %}
+
+{% block navbar %}{% include "include/navbar.html" %}{% endblock %}
+
+{% block header %}
+<h1>Welcome to LeShan Normal Universty Online Judge</h1>
+
+{% endblock %}
+{%  block content %}
+    <h3>F.A.Q.</h3>
+    <p>Q: Which programming languages can I use at Online Judge ?</p>
+    <p>A: C, C++, Java Python, and Pascal  are currently supported at Online Judge.</p>
+    <p>Q: What kind of input and output can I use at Online Judge ?</p>
+    <p>A: Only stdin (standard input) and stdout (standard output) can be used. For instance, you can use scanf in C or cin in C++ to read, and printf in C or cout in C++ to write. Your programs are NOT allowed to open and read from / write to files. You will probably get a Runtime Error or Wrong Answer if you try to do so.
+        Besides, you should note that, in most cases, C runtime I/O functions are more effective than those of C++'s, so scanf and printf is recommended to process huge input or output.</p>
+    <p>Q: What are the meanings of the judge's replies</p>
+    <p>A: Here is a list of the Judge's replies and their meaning:
+    <ul>
+        <li>
+            Queuing: The judge is so busy that it can't judge your solution at the moment. Usually you just need to wait a while because our judge server is powered by IBM and Intel Xeon :-)
+        </li>
+        <li>
+            Compiling : Your solution is being compiled to binary form by specified compiler.
+        </li>
+        <li>
+            Running : Your program is running on the server and fed with input data if necessary.
+        </li>
+        <li>
+            Accepted (AC) : Yes, your program is correct. You did a good job!
+        </li>
+        <li>
+            Presentation Error (PE) : Your program's output format is not exactly the same as required by the problem, although the output is correct. This usually means the existence of omitted or extra blank characters (white spaces, tab characters and/or new line characters) between any two non-blank characters, and/or blank lines (a line consisting of only blank characters) between any two non-blank lines. Trailing blank characters at the end of each line and trailing blank lines at the of output are not considered format errors. Check the output for spaces, blank lines, etc. against the problem's output specification.
+        </li>
+        <li>
+             Wrong Answer (WA) : Correct solution not reached for the inputs. The inputs and outputs that we use to test the programs are not public (it is recomendable to get accustomed to a true contest dynamic :-)
+        </li>
+        <li>
+            Runtime Error (RE) : Your program failed during the execution and you will receive the hints for the reasons. Here are part of the hints and their meanings.
+        </li>
+        <li>
+            ACCESS_VIOLATION Your program tried to read from or write to a address for which it does not have the appropriate access.
+        </li>
+        <li>
+            Time Limit Exceeded (TLE) : Your program tried to run during too much time.
+        </li>
+        <li>
+            Memory Limit Exceeded (MLE) : Your program tried to use more memory than the judge default settings.
+        </li>
+        <li>
+            Output Limit Exceeded (OLE) : Your program tried to write too much information. This usually occurs if it goes into a infinite loop.
+        </li>
+        <li>
+            Compilation Error (CE) : The compiler fails to compile your program. Warning messages are not considered errors. Click on the judge's reply to see the warning and error messages produced by the compiler.
+        </li>
+        <li>
+            System Error: The judge cannot run your program. One example is that your program requires much more memory than hardware limitation.
+        </li>
+        <li>
+            Out Of Contest Time : This message can only appear during a contest, if a program is submitted out of contest time.</p>
+        </li>
+    </ul>
+
+    <p>Q: What is the maximal size of program that can be submitted ?</p>
+    <p>A: The maximal size of program is 65535 characters.</p>
+{%  endblock %}

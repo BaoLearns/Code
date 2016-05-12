@@ -1,0 +1,30 @@
+{% extends "../base_list.html" %}
+
+{% block title %}{{ list.name }}{% endblock %}
+
+{% block navbar %}{% include "include/navbar-contest.html" %}{% endblock %}
+
+{% block list %}
+<col width="10%" />
+<col width="20%" />
+<col width="18%" />
+<col width="12%" />
+<col width="20%" />
+<col width="20%">
+<tr>
+    <th>#</th>
+    <th>Name</th>
+    <th>Starts</th>
+    <th>Length</th>
+    <th>Author</th>
+</tr>
+{% for item in contest %}
+<tr>
+    <th>{{ item.id }}</th>
+    <th><a href="#">{{ item.name }}</a></th>
+    <th>{{ item.start_time }}</th>
+    <th>{{ item.end_time }}</th>
+    <th>{{ item.uid }}</th>
+</tr>
+{% endfor %}
+{% endblock %}

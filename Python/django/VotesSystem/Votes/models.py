@@ -10,12 +10,15 @@ class VotesSystem(models.Model):
     '''
     title = models.CharField(max_length=200, blank=False)
     description = models.CharField(max_length=500, blank=True)
+    #published_date = models.DateField()
     start_date = models.DateTimeField()
     end_date = models.DateTimeField()
     total_votes = models.IntegerField(default=0)
     def __unicode__(self):
         return '%s' % self.title
-
+    '''class Meta(object):
+        ordering = ['published_date']
+    '''
 class User(models.Model):
     '''
         This table construct of User.

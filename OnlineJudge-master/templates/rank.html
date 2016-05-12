@@ -1,0 +1,30 @@
+{% extends "base_list.html" %}
+
+{% block title %}Rank List{% endblock %}
+
+{% block navbar %}{% include "include/navbar-rank.html" %}{% endblock %}
+
+{% block list %}
+<col width="10%" />
+<col width="20%" />
+<col width="18%" />
+<col width="12%" />
+<col width="20%" />
+<col width="20%">
+<tr>
+    <th>#</th>
+    <th>Name</th>
+    <th>Accepted</th>
+    <th>Submited</th>
+    <th>Ratio</th>
+</tr>
+{% for item in rank %}
+<tr>
+    <th>{{ forloop.counter }}</th>
+    <th><a href="#">{{ item.name }}</a></th>
+    <th>{{ item.accepted }}</th>
+    <th>{{ item.submited }}</th>
+    <th>{{ item.ratio }} %</th>
+</tr>
+{% endfor %}
+{% endblock %}
